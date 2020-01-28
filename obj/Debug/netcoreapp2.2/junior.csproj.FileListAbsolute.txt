@@ -1,0 +1,11 @@
+D:\junior\bin\Debug\netcoreapp2.2\junior.deps.json
+D:\junior\bin\Debug\netcoreapp2.2\junior.runtimeconfig.json
+D:\junior\bin\Debug\netcoreapp2.2\junior.runtimeconfig.dev.json
+D:\junior\bin\Debug\netcoreapp2.2\junior.dll
+D:\junior\bin\Debug\netcoreapp2.2\junior.pdb
+D:\junior\obj\Debug\netcoreapp2.2\junior.csprojAssemblyReference.cache
+D:\junior\obj\Debug\netcoreapp2.2\junior.csproj.CoreCompileInputs.cache
+D:\junior\obj\Debug\netcoreapp2.2\junior.AssemblyInfoInputs.cache
+D:\junior\obj\Debug\netcoreapp2.2\junior.AssemblyInfo.cs
+D:\junior\obj\Debug\netcoreapp2.2\junior.dll
+D:\junior\obj\Debug\netcoreapp2.2\junior.pdb
