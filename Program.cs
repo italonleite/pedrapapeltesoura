@@ -6,11 +6,13 @@ namespace junior
     {
         static void Main(string[] args)
         {
-            Jogador j1 = new Jogador();
-            Jogador j2 = new Jogador();
+            Jogador humano = new Jogador();
+            Jogador computador = new Jogador();
             int opcao;
-            j1.Nome = "italo";
-            j2.Nome = "reserve";
+            Console.WriteLine("Digite Seu Nome");
+            humano.Nome = Console.ReadLine();
+            computador.Nome = "reserve";
+            Console.WriteLine("Bem vindo ao jogo {0}, o seu adversário é o {1}", humano.Nome, computador.Nome);
             Console.WriteLine("Escolha umas das opções \n 1-pedra, 2-papel, 3-tesoura");
             opcao = int.Parse(Console.ReadLine());
             switch (opcao)
@@ -18,17 +20,17 @@ namespace junior
                 case 1:
                     partida p1 = new partida();
                     int OpcaoPedra = opcao;    
-                    p1.Partida(OpcaoPedra, j2);
+                    p1.Partida(OpcaoPedra, humano, computador);
                     break;
                 case 2:
                     partida p2 = new partida();
                     int OpcaoPapel = opcao;    
-                    p2.Partida(OpcaoPapel, j2);
+                    p2.Partida(OpcaoPapel, humano, computador);
                     break;
                 case 3:
                     partida p3 = new partida();
                     int OpcaoTesousa= opcao;    
-                    p3.Partida(OpcaoTesousa, j2);
+                    p3.Partida(OpcaoTesousa, humano, computador);
                     break;
             }
         }
