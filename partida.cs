@@ -44,6 +44,7 @@ namespace junior
             else {
                 Console.WriteLine("{0}{1} x {2}{3} ", humano.Nome, OpcaoHumano, OpcaoComputador, computador.Nome);
                 Console.WriteLine("Voce perdeu!! o Computador {0} ganhou", computador.Nome);
+                Console.ReadKey();
             }
 
         }
